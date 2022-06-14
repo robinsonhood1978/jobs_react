@@ -252,10 +252,10 @@ export default function Jobs(props) {
           </Dialog>
 
           <Dialog open={openNote} onClose={handleNoteClose} maxWidth='md'>
-            <DialogTitle>New Note</DialogTitle>
+            <DialogTitle>Edit Note</DialogTitle>
             <DialogContent>
               <DialogContentText>
-                To add new note to this job, please enter your note here.
+                To edit note content to this job, please enter your note here.
               </DialogContentText>
               <TextField
                 id="outlined-multiline-static"
